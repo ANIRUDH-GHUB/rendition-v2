@@ -1,0 +1,30 @@
+.toc-container {
+  position: fixed;
+  width: 25%;
+  top: 70px;
+}
+
+ul.toc-list ul {
+  list-style-type: none;
+}
+li {
+  padding: 8px;
+  list-style-type: none;
+}
+li a {
+  color: #8a8383;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* li ul {
+  display: none;
+} */
+li.is-current > a {
+  color: black;
+}
+li.is-current ul {
+  display: block;
+}
+li li {
+  font-size: 0.8em;
+}
