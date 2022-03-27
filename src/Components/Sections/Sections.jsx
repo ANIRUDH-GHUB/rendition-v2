@@ -4,7 +4,6 @@ import "./Sections.css";
 import { LogUtils } from "../../assets/scripts/LogUtils";
 
 function Sections() {
-  //   const [sections, setSections] = useState([])
   useEffect(() => LogUtils.log(true, false));
 
   return (
