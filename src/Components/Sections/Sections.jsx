@@ -4,6 +4,7 @@ import "./Sections.css";
 import { LogUtils } from "../../assets/scripts/LogUtils";
 
 function Sections() {
+  
   useEffect(() => LogUtils.log(true, false));
 
   return (
